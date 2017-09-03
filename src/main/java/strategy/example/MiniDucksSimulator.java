@@ -1,9 +1,7 @@
-package strategy.ducks;
+package strategy.example;
 
-/**
- * @author Roman Yatsyna {@literal <ryatsyna@at-consulting.ru>}
- */
 public class MiniDucksSimulator {
+
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
         mallard.performQuack();

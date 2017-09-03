@@ -1,8 +1,6 @@
-package strategy.ducks;
+package strategy.example;
 
-/**
- * @author Roman Yatsyna {@literal <ryatsyna@at-consulting.ru>}
- */
+
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
@@ -21,7 +19,7 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println("All ducks float, even decoys!");
+        System.out.println("All example float, even decoys!");
     }
 
     public void setFlyBehavior(FlyBehavior fb) {

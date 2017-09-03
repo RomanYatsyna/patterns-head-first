@@ -1,8 +1,5 @@
-package strategy.ducks;
+package strategy.example;
 
-/**
- * @author Roman Yatsyna {@literal <ryatsyna@at-consulting.ru>}
- */
 public class FlyRocketPowered implements FlyBehavior {
     @Override
     public void fly() {

@@ -1,10 +1,6 @@
-package strategy.ducks;
+package strategy.example;
 
-/**
- * @author Roman Yatsyna {@literal <ryatsyna@at-consulting.ru>}
- */
 public class DuckDecoy {
-
     QuackBehavior behavior;
 
     public void performQuack() {

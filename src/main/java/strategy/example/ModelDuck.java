@@ -1,13 +1,12 @@
-package strategy.ducks;
+package strategy.example;
 
-/**
- * @author Roman Yatsyna {@literal <ryatsyna@at-consulting.ru>}
- */
 public class ModelDuck extends Duck {
+
     public ModelDuck() {
         flyBehavior = new FlyNoWay();
         quackBehavior = new Quack();
     }
+
     @Override
     public void display() {
         System.out.println("I'm a model duck");
