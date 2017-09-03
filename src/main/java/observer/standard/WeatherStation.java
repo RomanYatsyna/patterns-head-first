@@ -11,6 +11,7 @@ public class WeatherStation {
         // Создаем визуальный элемент
         CurrentConditionsDisplay currentConditionsDisplay2 =
                 new CurrentConditionsDisplay(weatherData);
+        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
         // Иммитация новых погодных данных
         weatherData.setMeasurements(80, 62, 30.4f);
