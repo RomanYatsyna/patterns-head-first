@@ -1,4 +1,4 @@
-package strategy.example;
+package strategy;
 
 public class FlyRocketPowered implements FlyBehavior {
     @Override
