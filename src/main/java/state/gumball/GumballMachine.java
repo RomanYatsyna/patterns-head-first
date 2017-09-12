@@ -1,5 +1,8 @@
 package state.gumball;
 
+/**
+ * Реализация процедурного конечного автомата.
+ */
 public class GumballMachine {
     // Каждое состояние представлено целым числом.
     final static int SOLD_OUT = 0;
